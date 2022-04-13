@@ -1,0 +1,94 @@
+1640825345986	geckodriver	INFO	Listening on 127.0.0.1:54887
+1640825346497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60235" "-no-remote" "-profile" "/tmp/rust_mozprofilejRfjbp"
+1640825349983	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejRfjbp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60235/devtools/browser/321886f3-4d89-46c4-a443-61d8a92be723
+1640825354463	Marionette	INFO	Listening on port 42859
+1640825355739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640825390104	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1640829410391	Marionette	INFO	Stopped listening on port 42859
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640829413821	geckodriver	INFO	Listening on 127.0.0.1:41767
+1640829413830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37233" "-no-remote" "-profile" "/tmp/rust_mozprofileTVe1Ek"
+1640829416400	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTVe1Ek/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:37233/devtools/browser/3055aa77-0ac2-40ad-94c4-f228d183c4a1
+1640829420677	Marionette	INFO	Listening on port 43367
+1640829421325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640829462700	Marionette	INFO	Stopped listening on port 43367
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1640829466648	geckodriver	INFO	Listening on 127.0.0.1:37427
+1640829466656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45427" "-no-remote" "-profile" "/tmp/rust_mozprofileidlxl2"
+1640829469058	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileidlxl2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45427/devtools/browser/afbfc333-1565-4d05-a243-d99cc0ea4a47
+1640829473130	Marionette	INFO	Listening on port 44295
+1640829474535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2314))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1640834238839	geckodriver	INFO	Listening on 127.0.0.1:39507
+1640834238844	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41063" "-no-remote" "-profile" "/tmp/rust_mozprofilexjY3wM"
+1640834241533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexjY3wM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:41063/devtools/browser/5123d83c-c601-430a-b81e-3d5a313821f2
+1640834246257	Marionette	INFO	Listening on port 38783
+1640834246407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1640834283475	Marionette	INFO	Stopped listening on port 38783
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1640834285380	geckodriver	INFO	Listening on 127.0.0.1:37237
+1640834285385	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40125" "-no-remote" "-profile" "/tmp/rust_mozprofileD3kJ3M"
+1640834287762	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileD3kJ3M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40125/devtools/browser/8ebcb567-9b3d-42a4-9129-d13661d354ab
+1640834292149	Marionette	INFO	Listening on port 36925
+1640834293339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1640834306475	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+W@http://erp.cxic.com:8081/nccloud/resources/platform/api/index.js:2:628011
+De@http://erp.cxic.com:8081/nccloud/resources/platform/api/index.js:2:661227
+lt/<@http://erp.cxic.com:8081/nccloud/resources/platform/api/index.js:2:663719
+Ge@http://erp.cxic.com:8081/nccloud/resources/platform/api/index.js:2:653328
+lt@http://erp.cxic.com:8081/nccloud/resources/platform/api/index.js:2:663549
+938/t/n.getIntellivAutoRefreshFlag@http://erp.cxic.com:8081/nccloud/resources/workbench/public/common/main/static/pages/Home.js:1:27349
+value@http://erp.cxic.com:8081/nccloud/resources/workbench/public/common/main/static/pages/Home.js:1:28199
+Tu@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:94540
+t.unstable_runWithPriority@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:37:3884
+ho@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:41485
+Cu@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:90552
+hu@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:79289
+go/<@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:41757
+t.unstable_runWithPriority@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:37:3884
+ho@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:41485
+go@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:41704
+vo@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:41637
+Ue@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:109075
+Fn@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:31679
+Dn@http://erp.cxic.com:8081/nccloud/resources/platform/library/index.js:29:31396
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
